@@ -52,7 +52,7 @@ Navegue de volta para o diretório do frontend:
   ng serve
 ```
 
-![alt sistema](image.png)
+![alt text](src/assets/image.png)
 
 Após a execução, abra o navegador e acesse http://localhost:4200.
 
