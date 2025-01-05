@@ -1,27 +1,91 @@
-# WeatherApp
+# Weather App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+Este é um sistema desenvolvido em Angular 15 que consulta a temperatura de uma cidade utilizando uma API externa. A aplicação é acompanhada por um backend em Node.js versão 16 para auxiliar na integração e manipulação dos dados.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+- **Frontend:** Angular 15
+- **Backend:** Node.js 16
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Consulta de temperatura de qualquer cidade através de uma API externa.
+- Interface amigável e responsiva.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Pré-requisitos
 
-## Running end-to-end tests
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Node.js](https://nodejs.org/en/) (versão 16 ou superior)
+- [Angular CLI](https://angular.io/cli) (versão compatível com Angular 15)
+- [Git](https://git-scm.com/)
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Instalação e Execução
+
+Siga os passos abaixo para clonar e executar a aplicação:
+
+1. **Clone o repositório:**
+```bash
+   git clone https://github.com/Emersonfarias93/weather-app.git
+```
+
+2. Navegue até o diretório do projeto:
+```bash
+    cd weather-app
+```
+
+3. Instale as dependências do frontend:
+```bash
+    cd frontend
+    npm install
+```
+
+4. Instale as dependências do backend:
+```bash
+    cd ../backend
+    npm install
+```
+
+5. Execute o servidor backend:
+```bash
+    npm start
+```
+
+# Execute a aplicação Angular:
+
+Navegue de volta para o diretório do frontend:
+```bash
+  cd ../frontend
+  ng serve
+```
+
+Após a execução, abra o navegador e acesse http://localhost:4200.
+
+
+Configuração da API
+Certifique-se de configurar a URL da API de temperatura no arquivo de ambiente apropriado para que a aplicação possa consumir corretamente os dados externos.
+
+Contribuição
+Para contribuir com este projeto, por favor, siga estas etapas:
+
+Faça um fork do projeto
+Crie uma branch para sua feature (git checkout -b feature/MinhaFeature)
+Commite suas mudanças (git commit -m 'Add minha feature')
+Faça o push para a branch (git push origin feature/MinhaFeature)
+Abra um Pull Request
+
+Contato
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
+
+Autor: Emerson Farias
+Email: e.fariassantos@gmail.com
+
+Nota: Lembre-se de verificar as permissões de API e de atualizar as chaves de acesso conforme necessário para acessar os dados de temperatura.
