@@ -1,14 +1,12 @@
 # Weather App
 
-Este é um sistema desenvolvido em Angular 15 que consulta a temperatura de uma cidade utilizando uma API externa. A aplicação é acompanhada por um backend em Node.js versão 16 para auxiliar na integração e manipulação dos dados.
+Este é um sistema desenvolvido em Angular 15 que consulta a temperatura de uma cidade utilizando uma API externa. A aplicação é acompanhada Node.js versão 16 para auxiliar.
 
 ---
 
 ## Tecnologias Utilizadas
 
-- **Frontend:** Angular 15
-- **Backend:** Node.js 16
-
+- **Frontend:** Angular 15 / Node.js 16
 ---
 
 ## Funcionalidades
@@ -44,28 +42,17 @@ Siga os passos abaixo para clonar e executar a aplicação:
 
 3. Instale as dependências do frontend:
 ```bash
-    cd frontend
     npm install
-```
-
-4. Instale as dependências do backend:
-```bash
-    cd ../backend
-    npm install
-```
-
-5. Execute o servidor backend:
-```bash
-    npm start
 ```
 
 # Execute a aplicação Angular:
 
 Navegue de volta para o diretório do frontend:
 ```bash
-  cd ../frontend
   ng serve
 ```
+
+![alt text](src/assets/image.png)
 
 Após a execução, abra o navegador e acesse http://localhost:4200.
 
