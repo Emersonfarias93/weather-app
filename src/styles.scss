@@ -207,12 +207,47 @@ fa-icon {
   }
 
   .search input {
-    width: 85%;
+    width: 60%;
   }
 }
 
 /* Para telas menores que 480px (celulares) */
 @media (max-width: 480px) {
+  .temperature {
+    font-size: 1.5em;
+    padding: 0 0 2em 0;
+  }
+
+  .location {
+    color: var(--white);
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2em 0 0 0;
+  }
+
+  .more-info-label {
+    font-size: 1.3em;
+  }
+
+  .info-block-label span {
+    font-size: 0.7em;
+  }
+
+  .more-info-container {
+      margin: 1em 0.5em;
+      padding: 2em 0 2em 0;
+  }
+  
+  .search input {
+    font-size: 0.7em;
+  }
+
+  .container {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 230px) {
   .temperature {
     font-size: 1.5em;
     padding: 0 0 2em 0;
